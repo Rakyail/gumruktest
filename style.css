@@ -1,6 +1,6 @@
 /* General Body Styles */
 body {
-    background-image: url(/img/arkaplan2sari.jpg);
+    background-image: url(./img/arkaplan2sari.jpg);
     background-color:rgb(248, 247, 231);
     background-repeat: no-repeat;
     background-size: cover;
