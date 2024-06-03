@@ -46,16 +46,11 @@ p{
     flex-direction: column-reverse;
     flex-direction: row-reverse;
     margin-right:60px;
-    padding: 10px;
+    /* padding: 10px; */
     text-decoration: none;
-    border-image-slice: 200;
-    border-image-repeat: stretch;
-    border-image-width:9%;
-    /* padding-top: 30px; */
+  
     width: 25%;
-    height: 65vh;
     background:none;
-    /* box-shadow: rgba(0, 0, 0, 0.23) 40px 67px 70px 40px; */
 }
 /* .mobılenavbar css */
 .mobilenav{
@@ -74,13 +69,13 @@ a{
 button {
     color: rgb(24, 21, 14) !important;
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
     background: none;
     font-style: normal;
     font-size: x-large;
     font-weight: 700;
-    padding: 15px; /* Adjust padding for better alignment */
+    padding: 10px; /* Adjust padding for better alignment */
     font-size: 24px;
     color: rgb(7, 2, 2) !important;
     text-align: center;
@@ -89,25 +84,14 @@ button {
     text-align: center;
     text-decoration: none;
     border: 3px solid black;
-    border-radius: 26px / 24px; /* Oval corners: top-left and bottom-left */
+    border-radius: 26px / 26px; /* Oval corners: top-left and bottom-left */
   }
   
 
- .col-xl-4{
-    margin-right:  80px; /* Her sütunun sağ ve soluna 10px boşluk bırakır */
-  }
+ 
   
-  .container .column:first-child {
-    margin-left: 0; /* İlk sütunun solunda boşluk olmasını engeller */
-  }
-  
-  .container .column:last-child {
-    margin-right: 0; /* Son sütunun sağında boşluk olmasını engeller */
-  }
-  
-/* Carousel Container Styles */
+ 
 
-/* Carousel Inner Image Styles */
 
 
 /* Media Queries for Responsiveness */
