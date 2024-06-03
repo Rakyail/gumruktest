@@ -46,7 +46,7 @@ p{
     flex-direction: column-reverse;
     flex-direction: row-reverse;
     margin-right:60px;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     border-image-slice: 200;
     border-image-repeat: stretch;
@@ -80,7 +80,7 @@ button {
     font-style: normal;
     font-size: x-large;
     font-weight: 700;
-    padding: 20px; /* Adjust padding for better alignment */
+    padding: 15px; /* Adjust padding for better alignment */
     font-size: 24px;
     color: rgb(7, 2, 2) !important;
     text-align: center;
