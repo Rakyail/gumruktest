@@ -2,18 +2,13 @@
 body {
     background-image: url(./img/arkaplan2sari.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-   
-
-    
-  
+    background-size: cover; 
 }
 
   
 
 /* Container Styles */
 .borderx {
-    /* width: 100%; */
     border-image: url(./img/body\ \(1\).png);
     border-image-slice: 50;
     border-image-repeat: stretch;
@@ -145,7 +140,10 @@ button {
     font-size: 20px;
     padding: 10px; /* Kenarlığın yazıya yapışmaması için padding */
 }
+.carousel-inner{
+    border-radius: 26px / 26px; 
 
+}
   
 
   .bx{
@@ -187,8 +185,9 @@ button {
         font-size: medium;
         padding: 8px 15px;
     }
-
+   
     .carousel-container {
+        
         margin-bottom: 30px;
     }
 }
@@ -254,7 +253,6 @@ button {
     .Title {
         justify-content: center;
         align-items: center;
-        display: flex;
     }
     .Title h1 {
         display: inline-block;
