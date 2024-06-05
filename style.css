@@ -1,7 +1,6 @@
 /* General Body Styles */
 body {
     background-image: url(./img/arkaplan2sari.jpg);
-    background-color:rgb(248, 247, 231);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Edu TAS Beginner", cursive;
@@ -69,13 +68,13 @@ a{
 button {
     color: rgb(24, 21, 14) !important;
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100%;
     background: none;
     font-style: normal;
     font-size: x-large;
     font-weight: 700;
-    padding: 10px; /* Adjust padding for better alignment */
+    padding: 15px; /* Adjust padding for better alignment */
     font-size: 24px;
     color: rgb(7, 2, 2) !important;
     text-align: center;
@@ -90,7 +89,80 @@ button {
 
  
   
- 
+ /* mappp css */
+
+
+ section#contact {
+
+    margin-top: 4rem;
+  }
+  section#contact .section-heading {
+    color: #0e0909;
+  }
+  
+  .contact .info-box {
+    color: rgb(10, 6, 6);
+    text-align: center;
+    box-shadow: 0 0 20px rgba(6, 7, 7, 0.5);
+    padding: 20px 0 30px 0;
+    border: 3px solid black;
+    border-radius: 26px / 26px; /* Oval corners: top-left and bottom-left */
+  }
+  
+  .contact .info-box i {
+    font-size: 32px;
+    color: #090e0a;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #0c0e0e;
+  }
+  
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: rgb(9, 7, 7);
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  
+  iframe{
+    border-radius: 26px / 26px; 
+
+  }
+
+  .Title {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Title h1 {
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 26px; /* Tüm köşeler oval */
+    padding: 10px; /* Kenarlığın yazıya yapışmaması için padding */
+}
+
+  
+
+  .bx{
+      font-family: 'boxicons' !important;
+      font-weight: normal;
+      font-style: normal;
+      font-variant: normal;
+      line-height: 1;
+      text-rendering: auto;
+      display: inline-block;
+      text-transform: none;
+      speak: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+  }
 
 
 
