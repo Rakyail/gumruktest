@@ -3,8 +3,7 @@ body {
     background-image: url(./img/arkaplan2sari.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Edu TAS Beginner", cursive;
-    font-weight:bolder;
+   
 
     
   
@@ -56,7 +55,8 @@ p{
     display: none;
 }
 /* Paragraph Styles */
-p {
+p{
+    font-size: 18px;
     justify-content: center;
     align-items: center;
 }
@@ -142,9 +142,7 @@ button {
     display: flex;
 }
 .Title h1 {
-    display: inline-block;
-    border: 3px solid black;
-    border-radius: 26px; /* Tüm köşeler oval */
+    font-size: 20px;
     padding: 10px; /* Kenarlığın yazıya yapışmaması için padding */
 }
 
@@ -175,10 +173,9 @@ button {
     .mobilenav{
         display: block;
     }
-    .title {
-        font-size: 24px;
-        padding: 10px 15px;
-        margin: 20px 20px;
+    .Title {
+        padding: 10px 10px;
+        margin: 10px 10px;
     }
 
     .liPage {
@@ -205,11 +202,17 @@ button {
         margin: 50px;
     }
 
-    .title {
-        font-size: 18px;
-        padding: 4px 6px;
-        margin: 5px 5px;
+    .Title {
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
+    .Title h1 {
+        display: inline-block;
+        padding: 10px; /* Kenarlığın yazıya yapışmaması için padding */
+    }
+    
+      
 
     .liPage {
         width: 180px;
@@ -250,11 +253,17 @@ button {
         margin: 40px;
     }
 
-    .title {
-        font-size: 22px;
-        padding: 8px 10px;
-        margin: 15px 15px;
+    .Title {
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
+    .Title h1 {
+        display: inline-block;
+        padding: 10px; /* Kenarlığın yazıya yapışmaması için padding */
+    }
+    
+      
 
     .liPage {
     
@@ -282,16 +291,21 @@ button {
 
 @media (max-width: 768px) {
     .borderx {
-        width: 90%;
-       
+        padding: 3px;
+        margin: 30px;
     }
 
-    .title {
-        font-size: 20px;
-        padding: 6px 8px;
-        margin: 10px 10px;
+    .Title {
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
-
+    .Title h1 {
+        display: inline-block;
+        padding: 10px; /* Kenarlığın yazıya yapışmaması için padding */
+    }
+    
+      
     .liPage {
         width: 200px;
         height: 40vh;
@@ -324,14 +338,22 @@ button {
         margin-top: 0%;
         padding-top: 0%;
         margin: 20px;
+        width:100% ;
     }
 
-    .title {
-        font-size: 18px;
-        padding: 4px 6px;
-        margin: 5px 5px;
+    .Title {
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
-
+    .Title h1 {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 10px; /* Kenarlığın yazıya yapışmaması için padding */
+    }
+    
+      
     .liPage {
         display: none; /* Hide list pages on smaller screens */
         width: 180px;
@@ -348,14 +370,14 @@ button {
         border-image-slice: 50;
         border-image-repeat: stretch;
         border-image-width: 50px;
-        text-align: center;
+        width:100% ;
+
     }
 
     /* Full-Screen Carousel on Mobile */
     .carousel-container {
         display: flex;
         justify-content: center;
-        margin: 10px;
     }
 
     .carousel-inner img {
