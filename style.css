@@ -157,9 +157,7 @@ button {
       text-rendering: auto;
       display: inline-block;
       text-transform: none;
-      speak: none;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
+    
   }
 
 
@@ -371,6 +369,7 @@ button {
         border-image-repeat: stretch;
         border-image-width: 50px;
         width:100% ;
+        margin: 2%;
 
     }
 
