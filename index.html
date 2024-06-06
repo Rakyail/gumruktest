@@ -14,35 +14,41 @@
 
 
 <div class="borderx">  
-
- <!-- MOBİLE VERSİO0N -->
- <div class="container">
-  <div class=" nav" style="align-items: center; justify-content: center; ">
+<!-- MOBİLE VERSİO0N -->
+<div class="container">
+  <div class="nav" style="display: flex; align-items: center; justify-content: center;">
     <img src="./img/logo(2).png" width="270px" alt="">
- </div>
-  <div class="row">
-    <div class="col-12 mobilenav">
+  </div>
+  <div class="row mobilenav" style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="col-sm-6 mb-5" style="flex: 1;">
       <div class="dropdown">
         <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           Ana Menü
         </button>
-        <ul class="dropdown-menu ">
+        <ul class="dropdown-menu" style="background-color:rgba(234,172,23,255); width: 100%;;">
           <li><a class="dropdown-item" href="index.html">AnaSayfa</a></li>
           <li><a class="dropdown-item" href="#">Hakkımızda</a></li>
           <li><a class="dropdown-item" href="#">Menu</a></li>
           <li><a class="dropdown-item" href="#">Etkinlikler</a></li>
-          <li><a class="dropdown-item" href="">Konum</a></li>
-          <li><a class="dropdown-item" href="#">İletişim</a></li>
+          <li><a class="dropdown-item" href="konum.html">Konum</a></li>
+          <li><a class="dropdown-item" href="reservazyon.html">Rezervasyon</a></li>
         </ul>
       </div>
     </div>
+    <div class="col-sm-6 mb-5" style="flex: 1;">
+      <button class="btn mobilenav">
+        Rezervasyon
+      </button>
+    </div>
   </div>
- </div>
+</div>
 
-   
+
+<!-- mobıle nav end -->
+
    <div class="container liPageContainer">
     <div class="row">
-      <div class="col-sm-6 col-md-3 col-lg-6 col-xl-4 liPage">
+      <div class="col-sm-6 col-mb-5 col-lg-6 col-xl-4 liPage">
           <a href="index.html"><button>AnaSayfa</button></a>
           <a href="#Hakkimizda"><button> Hakkımızda</button></a>
           <a href="reservazyon.html"><button>Rezervasyon</button></a>

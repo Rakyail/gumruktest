@@ -1,8 +1,9 @@
 /* General Body Styles */
 body {
-    background-image: url(./img/arkaplan2sari.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
+    background-color: rgba(234,172,23,255);
+    /* background-image: url(./img/arkaplan2sari.jpg); */
+    /* background-repeat: no-repeat;
+    background-size: cover;  */
 }
 
   
@@ -12,7 +13,8 @@ body {
     border-image: url(./img/body\ \(1\).png);
     border-image-slice: 50;
     border-image-repeat: stretch;
-    border-image-width: 50px;
+    border-image-width:80px;
+    border-color: aliceblue;
     text-align: center;
     padding: 50px;
     margin: 80px;
@@ -34,7 +36,6 @@ p{
 
 /* List Page Button Styles */
 .liPage {
-    
     box-sizing: border-box;
     flex-direction: column-reverse;
     flex-direction: row-reverse;
@@ -49,6 +50,9 @@ p{
 .mobilenav{
     display: none;
 }
+.dropdown{
+    display: none;
+}
 /* Paragraph Styles */
 p{
     font-size: 18px;
@@ -56,11 +60,13 @@ p{
     align-items: center;
 }
 
+
 a{
     text-decoration: none;
 }
 /* Button Styles */
 button {
+    box-shadow: rgba(100, 50, 93, 0.25) 0px 10px 200px 5px, rgba(0, 0, 0, 0.3) 2px 3px 6px -6px, rgba(10, 37, 64, 0.35) 0px -2px 0px 0px inset;
     color: rgb(24, 21, 14) !important;
     display: flex;
     margin-top: 20px;
@@ -86,14 +92,12 @@ button {
   
  /* mappp css */
 
-
+/* konumcss */
  section#contact {
+    width: 100%;
+        margin-top: 4rem;
+  }
 
-    margin-top: 4rem;
-  }
-  section#contact .section-heading {
-    color: #0e0909;
-  }
   
   .contact .info-box {
     color: rgb(10, 6, 6);
@@ -105,7 +109,7 @@ button {
   }
   
   .contact .info-box i {
-    font-size: 32px;
+    font-size: 22px;
     color: #090e0a;
     border-radius: 50%;
     padding: 8px;
@@ -113,7 +117,7 @@ button {
   }
   
   .contact .info-box h3 {
-    font-size: 20px;
+    font-size:18px;
     color: rgb(9, 7, 7);
     font-weight: 700;
     margin: 10px 0;
@@ -127,30 +131,22 @@ button {
   }
   
   iframe{
+    width: 100%;
+    height: 370px;
     border-radius: 26px / 26px; 
 
   }
 
-  .Title {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.Title h1 {
-    font-size: 20px;
-    padding: 10px; /* Kenarlığın yazıya yapışmaması için padding */
-}
+
 .carousel-inner{
+    box-shadow: rgba(14, 30, 37, 0.12) 10px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     border-radius: 26px / 26px; 
 
 }
   
 
   .bx{
-      font-family: 'boxicons' !important;
-      font-weight: normal;
-      font-style: normal;
-      font-variant: normal;
+     
       line-height: 1;
       text-rendering: auto;
       display: inline-block;
@@ -158,7 +154,11 @@ button {
     
   }
 
-
+.page-section{
+    justify-content: center;
+    align-items: center;
+ padding: 10px;
+}
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1200px) {
@@ -189,6 +189,9 @@ button {
     .carousel-container {
         
         margin-bottom: 30px;
+    }
+    .dropdown{
+        display:block;
     }
 }
 
@@ -238,6 +241,9 @@ button {
        
         justify-content: center;
         width: 100%;
+    }
+    .dropdown{
+        display:block;
     }
 }
 
@@ -323,6 +329,9 @@ button {
         width: calc(100% - 20px); /* Add small margin on the sides */
         height: auto;
     }
+    .dropdown{
+        display:block;
+    }
 }
 
 @media (max-width: 576px) {
@@ -380,5 +389,8 @@ button {
     .carousel-inner img {
         width: calc(100% - 20px); /* Add small margin on the sides */
         height: auto;
+    }
+    .dropdown{
+        display:block;
     }
 }
