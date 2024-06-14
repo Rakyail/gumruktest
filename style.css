@@ -5,8 +5,10 @@ body {
     font-style: normal;
     background-color: rgba(209,134,12,255);
     /* background-image: url(./img/arkaplan2sari.jpg); */
-    /* background-repeat: no-repeat;
-    background-size: cover;  */
+    background-repeat: no-repeat; 
+    background-size: cover;  
+    background-position: 100%;
+
 }
 
   
@@ -37,9 +39,10 @@ p{
 
 /* List Page Button Styles */
 .liPage {
+    padding-top: 30px;
     padding-bottom: 10px;
     border-radius: 26px / 26px;
-    border: 4px solid black;
+    /* border: 4px solid black; */
     box-sizing: border-box;
     flex-direction: column-reverse;
     flex-direction: row-reverse;
@@ -47,9 +50,11 @@ p{
     text-decoration: none;
     width: 25%;
     background:none;
+    height: 50vh;
 }
 /* .mobılenavbar css */
 .mobilenav{
+    border: 2px;
     display: none;
 }
 .dropdown{
@@ -86,7 +91,6 @@ button {
   }
   
 
- 
   
  /* mappp css */
 
