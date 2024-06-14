@@ -170,8 +170,16 @@ button {
     border-radius: 26px / 26px; 
 
 }
-  
 
+ /* MOBİLE NAVBAR css */
+  .dropdown-toggle{
+    border: 3px solid black;
+    border-radius: 26px / 26px;
+  }
+.btn{
+    border: 3px solid black;
+    border-radius: 26px / 26px;
+}
   .bx{
      
       line-height: 1;
