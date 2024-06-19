@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="rezervasyon.css">
 </head>
 <body>
-
+ 
     <div class="container">
         <div class="nav" style="display: flex; align-items: center; justify-content: center;">
             <img src="./img/logo(2).png" width="270px" alt="Restaurant Logo">
+            
         </div>
+  
+         
         <h1>Make a Reservation</h1>
         <form id="reservation-form" action="send_email.php" method="post">
             <label for="name">Name:</label>
@@ -35,7 +38,7 @@
             <label for="party_size">Party Size:</label>
             <input type="number" id="party_size" name="party_size" required>
 
-            <button type="submit">Reserve</button>
+             <button class="rezervationBtn" type="submit">Reserve</button>
         </form>
     </div>
 

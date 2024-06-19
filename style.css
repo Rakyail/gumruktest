@@ -25,23 +25,29 @@ body {
     margin: 80px;
 }
 p{
-    font-weight: 900;
-    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    font-size:large;
 }
 /* Title Styles */
 .Title {
   
     margin: 30px 30px;
     color: #0b0505;
-    font-family: "Indie Flower", cursive;
 }
+.dropdown-menu{
+    position: fixed;
+    width: 200px !important;
+    background-color: rgba(209,134,12,255) !important;
 
+    
+}
 
 /* List Page Button Styles */
 .liPage {
     padding-top: 30px;
     padding-bottom: 10px;
-    border-radius: 26px / 26px;
+    /* border-radius: 26px / 26px; */
     /* border: 4px solid black; */
     box-sizing: border-box;
     flex-direction: column-reverse;
@@ -54,7 +60,7 @@ p{
 }
 /* .mobılenavbar css */
 .mobilenav{
-    border: 2px;
+    /* border: 2px; */
     display: none;
 }
 .dropdown{
@@ -71,23 +77,23 @@ a{
     text-decoration: none;
 }
 /* Button Styles */
-button {
-    box-shadow: rgba(100, 50, 93, 0.25) 0px 10px 200px 5px, rgba(0, 0, 0, 0.3) 2px 3px 6px -6px, rgba(10, 37, 64, 0.35) 0px -2px 0px 0px inset;
+a {
+    float: right;
+    /* box-shadow: rgba(100, 50, 93, 0.25) 0px 10px 200px 5px, rgba(0, 0, 0, 0.3) 2px 3px 6px -6px, rgba(10, 37, 64, 0.35) 0px -2px 0px 0px inset; */
     color: rgb(24, 21, 14) !important;
     display: flex;
     margin-top: 20px;
     width: 100%;
     background: none;
-    padding: 15px; /* Adjust padding for better alignment */
-    font-size: 24px;
-    color: rgb(7, 2, 2) !important;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding: 15px; 
+    font-weight: 700;
+    font-size: 18px;
+    justify-content:flex-end;
+    align-items: right;
+    text-align:right;
     text-decoration: none;
-    border: 3px solid black;
-    border-radius: 26px / 26px; /* Oval corners: top-left and bottom-left */
+    font-family: Arial, Helvetica, sans-serif;
+    
   }
   
 
@@ -104,18 +110,13 @@ button {
   .contact .info-box {
     color: rgb(10, 6, 6);
     text-align: center;
-    box-shadow: 0 0 20px rgba(6, 7, 7, 0.5);
     padding: 20px 0 30px 0;
-    border: 3px solid black;
-    border-radius: 26px / 26px; /* Oval corners: top-left and bottom-left */
   }
   
   .contact .info-box i {
     font-size: 22px;
     color: #090e0a;
-    border-radius: 50%;
     padding: 8px;
-    border: 2px dotted #0c0e0e;
   }
   
   .contact .info-box h3 {
@@ -134,51 +135,44 @@ button {
   .page{
     padding-bottom: 400px;
   }
+
+  /* KONUM CSS */
   iframe{
     width: 100%;
     height: 370px;
-    border-radius: 26px / 26px; 
 
   }
 /* konumbilgisititlecss */
 .text-uppercase {
-    box-shadow: rgba(14, 30, 37, 0.12) 10px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 10px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
     font-family: "Uchen", serif;
     font-weight: 300;
     font-style: normal;
     display: inline-block; /* İçeriğe göre genişlik ayarla */
-    border: 4px solid black;
-    border-radius: 26px / 26px;
+    /* border: 4px solid black; */
+    /* border-radius: 26px / 26px; */
     padding: 10px 20px; /* Kenarlık içeriğin hemen bitişiğinde olmasın diye iç boşluk ekleyin */
 }
 
 /* HAKKIMIZDA CSS */
 #Hakkimizda{
     display: inline-block; /* İçeriğe göre genişlik ayarla */
-    border: 4px solid black;
-    border-radius: 26px / 26px;
+    /* border: 2px solid black; */
+    /* border-radius: 26px / 26px; */
     padding: 5px 10px; 
-    box-shadow: rgba(14, 30, 37, 0.12) 10px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 10px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
     font-family: "Uchen", serif;
     font-weight: 300;
     font-style: normal;
-    border-radius: 26px / 26px; 
-
-}
-.carousel-inner{
-    box-shadow: rgba(14, 30, 37, 0.12) 10px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    border-radius: 26px / 26px; 
+    /* border-radius: 26px / 26px;  */
 
 }
 
- /* MOBİLE NAVBAR css */
-  .dropdown-toggle{
-    border: 3px solid black;
-    border-radius: 26px / 26px;
-  }
-.btn{
-    border: 3px solid black;
-    border-radius: 26px / 26px;
+
+
+
+p{
+   font-family: Arial, Helvetica, sans-serif;
 }
   .bx{
      
@@ -412,10 +406,6 @@ button {
         padding: 4px 8px;
     }
 
-    button {
-        font-size: small;
-        padding: 4px 8px;
-    }
     .borderx {
         border-image: url(./img/body\ \(1\).png);
         border-image-slice: 50;

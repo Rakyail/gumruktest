@@ -25,7 +25,7 @@ body {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
     max-width: 900px;
     width: 100%;
     opacity: 0.9; /* Arkaplanı bir nebze saydam yapma */
@@ -48,13 +48,10 @@ button:hover {
 
 /* Form genel stil düzenlemeleri */
 #reservation-form {
-    border: 3px solid black;
-    border-radius: 26px / 26px;
     max-width: 400px;
     margin: auto;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: none;
 }
 
@@ -76,20 +73,25 @@ button:hover {
     padding: 10px; /* Input padding ayarlandı */
     margin-bottom: 15px;
     font-size: 16px; /* Input font boyutu ayarlandı */
-    border: 2px solid #060505;
-    border-radius: 26px / 26px;
+    border: 3px solid #060505;
+    border-radius: 15px / 15px;
+    background-color: rgba(209, 134, 12, 255); 
 }
 
 /* Buton stili */
 #reservation-form button {
     background-color: none;
     color: rgb(12, 11, 11);
-    border: none;
     cursor: pointer;
     padding: 10px; /* Buton padding ayarlandı */
     font-size: 16px; /* Buton font boyutu ayarlandı */
     width: calc(60% - 20px); /* Buton genişliği ayarlandı */
 }
+
+
+/* rezervatıon submıt button */
+
+
 
 /* Buton hover efekti */
 #reservation-form button:hover {
@@ -110,8 +112,6 @@ button:hover {
     }
 
     #reservation-form {
-        border-radius: none;
-
         padding: 15px;
         box-shadow: none;
         margin-bottom: 15px;
@@ -146,9 +146,7 @@ button:hover {
     }
 
     #reservation-form {
-        
-        border-radius: none;
-        max-width: 600px;
+      max-width: 600px;
     }
 
     h1 {
