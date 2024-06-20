@@ -1,7 +1,6 @@
-/* Genel stil ayarları */
 body {
     width: 100%;
-    /* background-image: url(./img/arkaplan2sari.jpg); */
+    background-image: url(./img/arkaplan2sari.jpg);
     background-color: rgba(209, 134, 12, 255); 
     background-repeat: no-repeat;
     background-size: cover; 
