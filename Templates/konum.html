@@ -17,27 +17,28 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Konum Bilgisi</title>
 </head>
 <body>
   <!-- MOBİLE VERSİON -->
-  <div class="nav" style=" align-items: center; justify-content: center;">
-    <img src="./img/logo(2).png" width="270px" alt="">
+   <div class="borderx p-2 m-2">
+  <div class="nav pt-0 mt-0" style=" align-items: center; justify-content: center;">
+    <img src="../img/logo(2).png" width="270px" alt="" class="mt-0 pt-0">
   </div>
   <div class="container">
-    <div class="row mobilenav" style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="row mobilenav" style="display: flex; justify-content: center; align-items: center;">
       <div class="mobilnav col-sm-6 mb-5" style="flex: 1;">
         <div class="dropdown">
           <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             ANA MENU
           </button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="index.html">ANA SAYFA</a></li>
-            <li><a class="dropdown-item" href="#">HAKKIMIZDA</a></li>
+            <li><a class="dropdown-item" href="../index.html">ANA SAYFA</a></li>
+            <li><a class="dropdown-item" href="../index.html">HAKKIMIZDA</a></li>
             <li><a class="dropdown-item" href="#">MENU</a></li>
-            <li><a class="dropdown-item" href="konum.html">KONUM VE İLETŞİM</a></li>
-            <li><a class="dropdown-item" href="reservazyon.html">REZERVASYON</a></li>
+            <li><a class="dropdown-item" href="./konum.html">KONUM VE İLETŞİM</a></li>
+            <li><a class="dropdown-item" href="/Templates/reservazyon.html">REZERVASYON</a></li>
           </ul>
         </div>
       </div>
@@ -56,6 +57,7 @@
       <div class="text-center">
         <h1 class="Title text-uppercase">Konum Bilgisi</h1>
         <div class="row">
+          
           <div class="col-md-12"></div>
           <div class="col-sm-12 justify-content-center">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12090.840375204137!2d28.975762!3d41.022857!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9e7fe4427a1%3A0x4d617db4dd9cb420!2sKemanke%C5%9F%20Karamustafa%20Pa%C5%9Fa%2C%20G%C3%BCmr%C3%BCk%20Sk.%20no%3A%204%2C%2034425%20Beyo%C4%9Flu%2F%C4%B0stanbul!5e0!3m2!1str!2str!4v1622734477080!5m2!1str!2str" allowfullscreen="" loading="lazy"></iframe>
@@ -63,49 +65,60 @@
           <div class="col-md-12"></div>
         </div>
       </div>
-      <div class="row mt-2 mb-5">
-        <div class="col-sm-12">
+      <div class="row ">
+           
+        
           <div class="row justify-content-center align-items-center">
-            <div class="col-md-12">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <div class="info-box">
                 <i class="bi bx bi-geo-alt"></i>
                 <h3>Adresimiz</h3>
                 <p>Karaköy Gümrük, Kemankeş Karamustafa Paşa, Gümrük Sk. no: 4, 34425 Beyoğlu/İstanbul</p>
               </div>
             </div>
-            <div class="col-md-12">
-              <div class="info-box mt-2" onclick="navigateTo('mailto:info@karakoygumruk.com')">
+            <div class="col-md-12 d-flex"  style=" justify-content: center; align-items: center ;">
+              <button class="info-box mt-2" onclick="navigateTo('mailto:info@karakoygumruk.com')">
                 <i class="bi bx bi-envelope"></i>
                 <h3>E-posta</h3>
                 <p><br>info@karakoygumruk.com</p>
-              </div>
+              </button>
             </div>
-            <div class="col-md-12">
-              <div class="info-box mt-2" onclick="navigateTo('tel:+902122442252')">
+            <div class="col-md-12 d-flex"  style=" justify-content: center; align-items: center ;">
+              <button class="  info-box mt-2" onclick="navigateTo('tel:+902122442252')">
                 <i class="bi bx bi-telephone-outbound"></i>
                 <h3>Telefon</h3>
                 <p>0(212)2442252<br></p>
               </div>
-            </div>
-            <div class="col-md-12">
-              <div class="info-box mt-2" onclick="navigateTo('https://www.instagram.com/karakoygumruk')">
+            </button>
+            <div class="col-md-12 d-flex"  style=" justify-content: center; align-items: center ;">
+              <button class="info-box mt-2" onclick="navigateTo('https://www.instagram.com/karakoygumruk')">
                 <i class="bi bx bi-instagram"></i>
-                <h3>karakoygumruk</h3>
+                <h3>instagram</h3>
+
+                <h3>@karakoygumruk</h3>
                 <br>
-              </div>
+              </button>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
+
+  
+  <footer >
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Ana Sayfa</a></li>
+      <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Hakkımızda</a></li>
+      <li class="nav-item"><a href="./reservazyon.html" class="nav-link px-2 text-body-secondary">Rezervasyon</a></li>
+      <li class="nav-item"><a href="konum.html" class="nav-link px-2 text-body-secondary">Konum Ve İletişim</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"></a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2024 Tüm Hakları Saklıdır</p>
+  </footer>
+    </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script>
-    function navigateTo(url) {
-      window.location.href = url;
-    }
-  </script>
 </body>
 </html>
