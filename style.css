@@ -15,10 +15,9 @@ body {
 /* Container Styles */
 .borderx {
     border-image: url(./img/body\ \(1\).png);
-    border-image-slice: 50;
+    border-image-slice: 100;
     border-image-repeat: stretch;
     border-image-width:80px;
-    border-color: aliceblue;
     text-align: center;
     padding: 50px;
     margin: 80px;
@@ -26,7 +25,6 @@ body {
 
 /* Title Styles */
 .Title {
-  
     margin: 30px 30px;
     color: #0b0505;
 }
@@ -126,7 +124,6 @@ a {
   }
 /* konumbilgisititlecss */
 .text-uppercase {
-    /* box-shadow: rgba(14, 30, 37, 0.12) 10px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
     font-family: "Uchen", serif;
     font-weight: 300;
     font-style: normal;
