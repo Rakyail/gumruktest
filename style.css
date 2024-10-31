@@ -406,6 +406,10 @@ button{
 
     }
 
+    .quandoo{
+        border: 4px solid black;
+    }
+
     /* Full-Screen Carousel on Mobile */
     .carousel-container {
         display: flex;

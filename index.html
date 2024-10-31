@@ -165,16 +165,36 @@
         </div>
         
         </div>
-        <div class="col-sm-12 Title">
-          <h1 id="Hakkimizda">HAKKIMIZDA</h1>
+
+        <!-- Dil seçenek butonları -->
+        <div class="language-buttons pt-4" style="justify-content: center; align-items: center;">
+            <button id="turkishBtn" class="active" onclick="showContent('turkish')" style="font-weight: 600; font-size: large; font-family:'Times New Roman', Times, serif;">Hakkımızda</button>
+            <button id="englishBtn" onclick="showContent('english')" style="font-weight: 600; font-size: large; font-family: 'Times New Roman', Times, serif; ">About Us</button>
         </div>
-        <div class="paragraf">
-          <p>
+    
+        <!-- İçerik alanı -->
+        <div id="content" class="content">
+            <!-- Başlangıçta Türkçe içerik gösterilecek -->
+             <p>
+              Karaköy Gümrük, adını tarihi Karaköy Limanı’na uzanan Gümrük Sokak’tan alıyor; yüzyıllar boyu ticaret ve insan hareketliliğinin merkezi olan Karaköy’ün tarihi atmosferinin tam merkezinde yer alıyor. Rum mimar Ioannis Karagiannis tarafından tasarlanan ve 1905 yılında inşa edilen eklektik (seçmeci) üsluptaki binanın arkası ise ziyaretçilerini saklı bir hazine gibi karşılayan Yemişçi Hasan Sokağı’na açılıyor. 
 
-            LOREM, IPSUM DOLOR SIT AMET CONSECTETUR ADIPISICING ELIT. MAXIME VOLUPTAS, LAUDANTIUM NON ET VITAE SED QUAERAT, CORRUPTI FUGIAT VERO NOSTRUM, ILLO CUMQUE INCIDUNT NIHIL NULLA MOLITIA VEL INVENTORE. DELECTUS, LABORUM! EAAQUE ENIM, MINUS APERIAM ITAQUE EXPLICABO EST REPELLAT? EUM APERIAM SAPIENTE DIGNISSIMOS FUGIAT NECESSITATIBUS? QUAM SOLUTA AT REPELLENDUS MAIORES ASPERNATUR DUCIMUS ISTE IN MINUS BEATAE. OFFICIA QUAE NIHIL TEMPORA SINT?
+Eski belgelerde “Küçük Cedid Han” olarak anılan bina, Akbank Karaköy Şubesi binası (Cedid Han) ile yine eklektik üsluba ve benzer mimari öğelere sahip, muhtemelen mimarı yine Karagiannis olan bir başka yapı arasında kalmakta. Mekân yıllar içinde farklı amaçlarla kullanıldıktan sonra, Y.Mimar ve Restoratör Yavuz Çelenk’in iki yıl süren renovasyon projesi ve Yaşar Kartoğlu’nun mekan tasarımıyla, 2014 yılının Mayıs ayında Karaköy Gümrük olarak kapılarını açtı. 
 
-          </p>
-          </div>
+Karagiannis’in eseri, İstanbul’un değişimine ayak uydurarak yeni insanlara, yeni deneyimlere ve lezzetlere alan açmaya devam ediyor.
+
+Eklektik üslupta inşa edilmiş olan binanın yeni mekan tasarımında da aynı üslup tercih ediliyor. Her köşesi bir kuyumcu titizliğiyle işlenmiş olan binanın katlarına yerleştirilmiş, koleksiyon niteliğinde ve farklı üsluplarda mobilya, tablo ve objeler denge ve uyum içinde mekânın ruhunu yeniden oluşturuyor. Beş katlı bir bina olan Karaköy Gümrük’ün, ilk iki katında kafe ve lokanta olarak, diğer katlarındaysa özel davetler ve partilere ev sahipliği yaparak misafirlerimizi ağırlıyoruz. 
+
+Günün her saatinde yeni ve farklı lezzetler keşfedebileceğiniz sade ve mevsimlerin güzelliklerine (/sunduklarına ??) ayak uyduran bir menümüz var. Lezzetli reçetelerimiz İdil Ayvalıklı K. imzası taşıyor.  Karaköy Gümrük ekibi olarak ulaşabildiğimiz en iyi yerel malzemeleri kullanarak hem misafirlerimize samimi lezzetler sunuyor hem de yerel üreticiler ile kol kola ilerliyoruz. 
+
+Yerel ve kaliteli ürün sevgimiz Karaköy Gümrük’te sunduğumuz içecek seçimlerini de belirliyor. Menüde, bizzat ve özenle oluşturduğumuz Türk şarapları seçkisinin yanı sıra yerli ve yabancı biralar ve özel kokteyller bulunuyor. 
+
+Karaköy Gümrük, bir ev gibi, misafirlerini ağırlamak ve hikayesini anlatmak için her gün aynı keyifle döküm demir kapılarını açıyor ve İstanbul severlere caz müziği eşliğinde tüm güne ve akşama yayılan samimi bir ortam sunuyor… 
+
+
+
+
+             </p>
+        </div>
       </div>
     </div>
     <footer  class="mt-5 pt-5" >
@@ -194,5 +214,6 @@
 
    
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ <script src="app.js"></script>
 </body>
 </html>
