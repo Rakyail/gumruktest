@@ -4,7 +4,23 @@ function showContent(language) {
     const englishBtn = document.getElementById('englishBtn');
 
     if (language === 'turkish') {
-        contentDiv.innerHTML = `<p>Bizim restoranımız, müşteri memnuniyetini her zaman en ön planda tutarak kaliteli ve taze ürünler sunmayı ilke edinmiştir. Siz değerli misafirlerimizi ağırlamaktan mutluluk duyuyoruz.</p>`;
+        contentDiv.innerHTML = `<p>Karaköy Gümrük, adını tarihi Karaköy Limanı’na uzanan Gümrük Sokak’tan alıyor; yüzyıllar boyu ticaret ve insan hareketliliğinin merkezi olan Karaköy’ün tarihi atmosferinin tam merkezinde yer alıyor. Rum mimar Ioannis Karagiannis tarafından tasarlanan ve 1905 yılında inşa edilen eklektik (seçmeci) üsluptaki binanın arkası ise ziyaretçilerini saklı bir hazine gibi karşılayan Yemişçi Hasan Sokağı’na açılıyor. 
+
+Eski belgelerde “Küçük Cedid Han” olarak anılan bina, Akbank Karaköy Şubesi binası (Cedid Han) ile yine eklektik üsluba ve benzer mimari öğelere sahip, muhtemelen mimarı yine Karagiannis olan bir başka yapı arasında kalmakta. Mekân yıllar içinde farklı amaçlarla kullanıldıktan sonra, Y.Mimar ve Restoratör Yavuz Çelenk’in iki yıl süren renovasyon projesi ve Yaşar Kartoğlu’nun mekan tasarımıyla, 2014 yılının Mayıs ayında Karaköy Gümrük olarak kapılarını açtı. 
+
+Karagiannis’in eseri, İstanbul’un değişimine ayak uydurarak yeni insanlara, yeni deneyimlere ve lezzetlere alan açmaya devam ediyor.
+
+Eklektik üslupta inşa edilmiş olan binanın yeni mekan tasarımında da aynı üslup tercih ediliyor. Her köşesi bir kuyumcu titizliğiyle işlenmiş olan binanın katlarına yerleştirilmiş, koleksiyon niteliğinde ve farklı üsluplarda mobilya, tablo ve objeler denge ve uyum içinde mekânın ruhunu yeniden oluşturuyor. Beş katlı bir bina olan Karaköy Gümrük’ün, ilk iki katında kafe ve lokanta olarak, diğer katlarındaysa özel davetler ve partilere ev sahipliği yaparak misafirlerimizi ağırlıyoruz. 
+
+Günün her saatinde yeni ve farklı lezzetler keşfedebileceğiniz sade ve mevsimlerin güzelliklerine (/sunduklarına ??) ayak uyduran bir menümüz var. Lezzetli reçetelerimiz İdil Ayvalıklı K. imzası taşıyor.  Karaköy Gümrük ekibi olarak ulaşabildiğimiz en iyi yerel malzemeleri kullanarak hem misafirlerimize samimi lezzetler sunuyor hem de yerel üreticiler ile kol kola ilerliyoruz. 
+
+Yerel ve kaliteli ürün sevgimiz Karaköy Gümrük’te sunduğumuz içecek seçimlerini de belirliyor. Menüde, bizzat ve özenle oluşturduğumuz Türk şarapları seçkisinin yanı sıra yerli ve yabancı biralar ve özel kokteyller bulunuyor. 
+
+Karaköy Gümrük, bir ev gibi, misafirlerini ağırlamak ve hikayesini anlatmak için her gün aynı keyifle döküm demir kapılarını açıyor ve İstanbul severlere caz müziği eşliğinde tüm güne ve akşama yayılan samimi bir ortam sunuyor… 
+
+
+
+</p>`;
         turkishBtn.classList.add('active');
         englishBtn.classList.remove('active');
     } else if (language === 'english') {
