@@ -1,3 +1,4 @@
+
 function showContent(language) {
     const contentDiv = document.getElementById('content');
     const turkishBtn = document.getElementById('turkishBtn');
@@ -41,3 +42,4 @@ Karaköy Gümrük opens its cast iron doors every day with the same pleasure, li
         turkishBtn.classList.remove('active');
     }
 }
+

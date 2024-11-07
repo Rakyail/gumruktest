@@ -400,14 +400,14 @@ button{
         border-image-repeat: stretch;
         border-image-width: 50px;
         width:100% ;
-        margin: 2%;
+        margin: 0%;
         padding-top: 0%;
 
 
     }
 
   
-    /* Full-Screen Carousel on Mobile */
+ * Full-Screen Carousel on Mobile */
     .carousel-container {
         display: flex;
         justify-content: center;
