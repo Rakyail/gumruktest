@@ -18,7 +18,7 @@
           <img src="../img/logo(2).png" width="270px" alt="">
         </div>
         <div class="container">
-        <div class="row mobilenav" style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="row mobilenav d-xl-none" style="display: flex; justify-content: space-between; align-items: center;">
           <div class="col-sm-6 mb-5" style="flex: 1;">
             <div class="dropdown">
               <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 600;">
@@ -26,7 +26,7 @@
               </button>
               <ul class="dropdown-menu" style="background-color:rgba(234,172,23,255); width: 100%;;">
                 <li><a class="dropdown-item" href="../index.html"style="font-weight: 600;">ANA SAYFA</a></li>
-                <li><a class="dropdown-item" href="#content" style="font-weight: 600;">HAKKIMIZDA</a></li>
+                <li><a class="dropdown-item" href="../index.html#content" style="font-weight: 600;">HAKKIMIZDA</a></li>
                 <li><a class="dropdown-item" href="#" style="font-weight: 600;">MENU</a></li>
                 <li><a class="dropdown-item" href="konum.html" style="font-weight: 600;">KONUM VE İLETİŞİM</a></li>
                 <!-- <li><a class="dropdown-item" href="reservazyon.html">REZERVASYON</a></li> -->
@@ -43,7 +43,7 @@
         <div class="row d-flex " style="margin-top: 0%; padding-top: 0%;">
           <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 liPage" style="margin-top: 120px;">
             <a href="../index.html">ANA SAYFA</a>
-            <a href="#content">HAKKIMZIDA</a>
+            <a href="../index.html#content">HAKKIMZIDA</a>
             <a href="">REZERVASYON</a>
             <a href="reservazyon.html">MENU</a>
             <a href="Templates/konum.html">KONUM VE İLETŞİM</a>
@@ -56,19 +56,21 @@
 
 
     <footer >
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <ul class="nav justify-content-center">
         <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Ana Sayfa</a></li>
-        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Hakkımızda</a></li>
+        <li class="nav-item"><a href="../index.html#content" class="nav-link px-2 text-body-secondary">Hakkımızda</a></li>
         <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Rezervasyon</a></li> -->
         <li class="nav-item"><a href="konum.html" class="nav-link px-2 text-body-secondary">Konum Ve İletişim</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"></a></li>
       </ul>
-      <p class="text-center text-body-secondary">© 2024 Tüm Hakları Saklıdır</p>
       
     </footer>
         </div>
       </div>
-
+<div>
+  <p class="text-center text-body-secondary">© 2024 Tüm Hakları Saklıdır</p>
+      
+</div>
       <script>
         function navigateTo(url) {
             window.location.href = url;

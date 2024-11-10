@@ -81,7 +81,7 @@ a {
     
   }
 /* konumcss */
- section#contact {
+ section #contact {
      width: 100%;
      margin-top: 4rem;
   }
@@ -371,7 +371,7 @@ button{
         margin-top: 0%;
         padding-top: 0%;
         margin: 20px;
-        width:100% ;
+        width:90% ;
     }
 
     .Title {
@@ -397,13 +397,14 @@ button{
 
     .borderx {
         border-image: url(./img/body\ \(1\).png);
-        border-image-slice: 50;
+        border-image-slice: 80;
         border-image-repeat: stretch;
-        border-image-width: 50px;
-        width:93% ;
+        border-image-width: 60px;
+        width:90% ;
+        padding-top: 5%;
+        display:content;
+        padding-top: 0;
         margin-top: 1%;
-        margin: 0 4%;
-        padding-top: 0%;
     }
 
     }
@@ -423,4 +424,4 @@ button{
         display:block;
     }
     
-}
+

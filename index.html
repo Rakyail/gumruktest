@@ -16,15 +16,13 @@
 </head>
 <body>
 
-
-
 <div class="borderx ">  
 <!-- MOBİLE VERSİO0N -->
 <div class="container ">
   <div class="nav " style="display: flex; align-items: center; justify-content: center;">
     <img src="./img/logo(2).png" width="270px" alt="">
   </div>
-  <div class="row mobilenav" style="display: flex; justify-content: space-between; align-items: center;">
+  <div class="row mobilenav  d-xl-none " style="display: flex; justify-content: space-between; align-items: center;">
     <div class="col-sm-6 mb-5" style="flex: 1;">
       <div class="dropdown">
         <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-weight: 700;">
@@ -168,13 +166,13 @@
         </div>
 
         <!-- Dil seçenek butonları -->
-        <div class="language-buttons pt-4" style="justify-content: center; align-items: center;">
+        <div class="language-buttons pt-4 mt-1" style="justify-content: center; align-items: center;">
             <button id="turkishBtn" class="active" onclick="showContent('turkish')" style="font-weight: 600; font-size: large; font-family:'Times New Roman', Times, serif;">Hakkımızda</button>
             <button id="englishBtn" onclick="showContent('english')" style="font-weight: 600; font-size: large; font-family: 'Times New Roman', Times, serif; ">About Us</button>
         </div>
     
         <!-- İçerik alanı -->
-        <div id="content" class="content">
+        <div id="content" class="content mt-3 pt-2">
             <!-- Başlangıçta Türkçe içerik gösterilecek -->
              <p>
               Karaköy Gümrük, adını tarihi Karaköy Limanı’na uzanan Gümrük Sokak’tan alıyor; yüzyıllar boyu ticaret ve insan hareketliliğinin merkezi olan Karaköy’ün tarihi atmosferinin tam merkezinde yer alıyor. Rum mimar Ioannis Karagiannis tarafından tasarlanan ve 1905 yılında inşa edilen eklektik (seçmeci) üsluptaki binanın arkası ise ziyaretçilerini saklı bir hazine gibi karşılayan Yemişçi Hasan Sokağı’na açılıyor. 
@@ -199,16 +197,21 @@ Karaköy Gümrük, bir ev gibi, misafirlerini ağırlamak ve hikayesini anlatmak
       </div>
     </div>
     <footer  >
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <ul class="nav justify-content-center ">
         <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Ana Sayfa</a></li>
         <li class="nav-item"><a href="#Hakkimizda" class="nav-link px-2 text-body-secondary">Hakkımızda</a></li>
         <li class="nav-item"><a href="./Templates/reservazyon.html" class="nav-link px-2 text-body-secondary">Rezervasyon</a></li>
         <li class="nav-item"><a href="./Templates/konum.html" class="nav-link px-2 text-body-secondary">Konum Ve İletişim</a></li>
       </ul>
-      <p class="text-center text-body-secondary">© 2024 Tüm Hakları Saklıdır</p>
+     
     </footer>
+
+    
    </div>
-   
+   <div>
+    <p class="text-center text-body-secondary">© 2024 Tüm Hakları Saklıdır</p>
+   </div>
+
 
    
 
