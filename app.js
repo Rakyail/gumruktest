@@ -43,3 +43,13 @@ Karaköy Gümrük opens its cast iron doors every day with the same pleasure, li
     }
 }
 
+var pages = document.getElementsByClassName('page');
+for(var i = 0; i < pages.length; i++)
+  {
+    var page = pages[i];
+    if (i % 2 === 0)
+      {
+        page.style.zIndex = (pages.length - i);
+      }
+  }
+
