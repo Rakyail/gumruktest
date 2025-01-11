@@ -5,6 +5,9 @@ body {
     background-size: cover;  
     background-position: 100%;
 }
+.quandoo {
+    margin-top: -110px !important; /* Margin değerini azaltın */
+}
 
   *{
     font-family: Arial, Helvetica, sans-serif;
