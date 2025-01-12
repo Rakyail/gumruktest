@@ -18,6 +18,12 @@ body {
     display: inline-block; /* Sadece görselin boyutuyla sınırlı yapar */
 }
 
+.fa-solid {
+    margin-left: auto !important;
+    display:inline-block;
+    
+}
+
 .icon-image {
     width: 50px;  /* Görselin genişliği (istediğiniz boyutta ayarlayın) */
     height: auto; /* Görselin yüksekliği */

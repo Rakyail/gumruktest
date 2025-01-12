@@ -29,22 +29,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+// Tüm 'fa-solid' classına sahip i tag'larını seç
+const icons = document.querySelectorAll('i.fa-solid');
 
-  // function menuKontrol() {
-  //     var suAn = new Date();
-  //     var saat = suAn.getHours();
-  
-  //     var headingKahvalti = document.getElementById("headingKahvalti");
-  
-  //     if (saat >= 7 && saat < 12) {
-  //         headingKahvalti.style.display = "block"; // Menüyü göster
-  //     } else {
-  //         headingKahvalti.style.display = "none"; // Menüyü gizle
-  //     }  }
-  
-  //   // Belirli aralıklarla kontrol etmek için
-  //   setInterval(menuKontrol, 10000); // Her 10 saniyede bir kontrol etmek için
-
+// Her birine 'ml-auto' sınıfını ekle
+icons.forEach(icon => {
+    icon.classList.add('ml-auto');
+});
 
 
   

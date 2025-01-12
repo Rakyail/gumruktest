@@ -2,9 +2,7 @@ body {
     background-color: rgba(209,134,12,255);
     width: 100%;
 }
-.fa-solid{
-    visibility: hidden;
-}
+
 
 
 /* img{
@@ -61,8 +59,9 @@ p {
 }
 
 .fa-solid {
-    margin-left: auto;
-    display: none;
+    margin-left: auto !important;
+    display:inline-block;
+    position: absolute;
 }
 
 hr {
@@ -380,16 +379,5 @@ hr {
     
 
     
-
- /* TÜRKÇE MENU CSSS */
-
-
-
- 
-
-
-
-    
-
     
 
